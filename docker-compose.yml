@@ -17,8 +17,8 @@ services:
       ENV: development
       PHP_SENDMAIL_PATH: /usr/sbin/sendmail -t -i -S mailhog:1025
       DB_NAME: wordpress
-      DB_USER: username
-      DB_PASSWORD: password
+      DB_USER: wordpress
+      DB_PASSWORD: wordpress
       DB_HOST: mariadb
       WP_HOME: localhost:8000
       WP_SITEURL: localhost:8000
